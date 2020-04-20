@@ -20,4 +20,10 @@ for d in data:
 		new.append(d)
 print('小於100字一共有', len(new), '筆')
 print(new[0])
-print(new[1])		
+print(new[1])
+
+good = []
+for d in data:
+	if 'good' in d:
+		good.append(d)
+print('有good的共出現', len(good), '次')				
