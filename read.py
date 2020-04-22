@@ -26,4 +26,9 @@ good = []
 for d in data:
 	if 'good' in d:
 		good.append(d)
-print('有good的共出現', len(good), '次')				
+print('有good的共出現', len(good), '次')	
+
+good = [d for d in data of 'good' in d]	#高階寫法
+print(good)
+bad = ['bad' in d for d in data]	#bad 為條件式
+print(bad)
